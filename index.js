@@ -17,7 +17,7 @@ function sendEmail() {
   // Prepare email parameters
   var params = {
     from_name: fullName,
-    to_email: "abdullah.ahsun90@gmail.com",
+    to_email: "abdullah.ahsun@yahoo.com",
     user_email: email,
     message: message
   };
