@@ -1,5 +1,9 @@
+document.addEventListener('DOMContentLoaded', function() {
+
 // Initialize EmailJS with your service ID
 emailjs.init("service_nvc6e2l");
+
+});
 
 // Function to send email
 function sendEmail() {
