@@ -66,14 +66,21 @@
   position: absolute;
   top: 0;
   right: 0;
-  width: 100px; /* Adjust size as needed */
+  width: 10vw; /* Adjust size as needed */
+  max-width: 100px; /* Ensure it doesn't get too large on very wide screens */
   height: auto;
 }
 
 /* Example media queries for responsiveness */
+@media (max-width: 1024px) {
+  .header-heading img {
+    width: 8vw; /* Adjust size for smaller screens */
+  }
+}
+
 @media (max-width: 600px) {
   .header-heading img {
-      width: 80px; /* Adjust size for smaller screens */
+    width: 15vw; /* Adjust size for even smaller screens */
   }
 }
 
