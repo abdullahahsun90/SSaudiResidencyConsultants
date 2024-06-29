@@ -49,40 +49,39 @@
 .header-heading {
   fill: var(--dl-color-gray-white);
   color: var(--dl-color-gray-white);
-  font-style: normal;
-  font-weight: 700;
-  line-height: 1;
-  padding-top: 0.25rem;
-  padding-left: var(--dl-space-space-halfunit);
-  border-radius: var(--dl-radius-radius-radius25);
-  padding-right: var(--dl-space-space-halfunit);
-  padding-bottom: 0.25rem;
-  text-transform: uppercase;
   background-color: var(--dl-color-secondary-100);
   position: relative; /* Ensures the child can be positioned absolutely within it */
+  padding-right: 10vw; /* Add right padding to accommodate the image */
 }
 
 .header-heading img {
   position: absolute;
   top: 0;
   right: 0;
-  width: 10vw; /* Adjust size as needed */
+  width: 9vw; /* Adjust size as needed */
   max-width: 100px; /* Ensure it doesn't get too large on very wide screens */
   height: auto;
 }
 
 /* Example media queries for responsiveness */
 @media (max-width: 1024px) {
+  .header-heading {
+    padding-right: 8vw; /* Adjust padding for smaller screens */
+  }
   .header-heading img {
-    width: 8vw; /* Adjust size for smaller screens */
+    width: 7vw; /* Adjust size for smaller screens */
   }
 }
 
 @media (max-width: 600px) {
+  .header-heading {
+    padding-right: 8vw; /* Adjust padding for even smaller screens */
+  }
   .header-heading img {
-    width: 15vw; /* Adjust size for even smaller screens */
+    width: 7vw; /* Adjust size for even smaller screens */
   }
 }
+
 
 .header-mobile-menu {
   top: 0px;
