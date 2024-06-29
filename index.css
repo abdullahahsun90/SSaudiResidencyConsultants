@@ -51,7 +51,8 @@
   color: var(--dl-color-gray-white);
   background-color: var(--dl-color-secondary-100);
   position: relative; /* Ensures the child can be positioned absolutely within it */
-  margin-left: 8vw; /* Add right padding to accommodate the image */
+  margin-left: 10vw; /* Add right padding to accommodate the image */
+  margin-bottom: 10px;
 }
 
 .header-heading img {
