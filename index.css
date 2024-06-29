@@ -63,16 +63,6 @@
   height: auto;
 }
 
-/* Example media queries for responsiveness */
-@media (max-width: 1024px) {
-  .header-heading {
-    margin-left: 4vw; /* Adjust padding for smaller screens */
-  }
-  .header-heading img {
-    width: 7vw; /* Adjust size for smaller screens */
-  }
-}
-
 
 .header-mobile-menu {
   top: 0px;
