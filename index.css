@@ -59,7 +59,7 @@
   top: 0;
   right: 0;
   width: 12vw; /* Adjust size as needed */
-  max-width: 100px; /* Ensure it doesn't get too large on very wide screens */
+  max-width: 200px; /* Ensure it doesn't get too large on very wide screens */
   height: auto;
 }
 
