@@ -59,6 +59,7 @@
   padding-bottom: 0.25rem;
   text-transform: uppercase;
   background-color: var(--dl-color-secondary-100);
+  position: relative; /* Ensures the child can be positioned absolutely within it */
 }
 
 .header-heading img {
