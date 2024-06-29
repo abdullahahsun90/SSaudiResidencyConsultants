@@ -60,6 +60,22 @@
   text-transform: uppercase;
   background-color: var(--dl-color-secondary-100);
 }
+
+.header-heading img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100px; /* Adjust size as needed */
+  height: auto;
+}
+
+/* Example media queries for responsiveness */
+@media (max-width: 600px) {
+  .header-heading img {
+      width: 80px; /* Adjust size for smaller screens */
+  }
+}
+
 .header-mobile-menu {
   top: 0px;
   flex: 0 0 auto;
