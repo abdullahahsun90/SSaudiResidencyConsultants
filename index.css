@@ -59,7 +59,7 @@
   position: absolute;
   top: 0;
   right: 0;
-  width: 12vw; /* Adjust size as needed */
+  width: 15vw; /* Adjust size as needed */
   max-width: 100px; /* Ensure it doesn't get too large on very wide screens */
   height: auto;
 }
