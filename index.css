@@ -52,6 +52,8 @@
   background-color: var(--dl-color-secondary-100);
   position: relative; /* Ensures the child can be positioned absolutely within it */
   margin-left: 5vw; /* Add right padding to accommodate the image */
+  margin-top: var(--dl-space-space-halfunit);
+  margin-bottom: var(--dl-space-space-halfunit);
 }
 
 .header-heading img {
@@ -66,7 +68,7 @@
 /* Example media queries for responsiveness */
 @media (max-width: 1024px) {
   .header-heading {
-    margin-left: 5vw; /* Adjust padding for smaller screens */
+    margin-left: 4vw; /* Adjust padding for smaller screens */
   }
   .header-heading img {
     width: 7vw; /* Adjust size for smaller screens */
