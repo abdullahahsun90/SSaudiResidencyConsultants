@@ -263,6 +263,8 @@
   height: 24px;
 }
 .service-card-text {
+  align-content: center;
+  text-align: center;
   color: var(--dl-color-gray-white);
   margin-top: var(--dl-space-space-unitandhalf);
   font-weight: 600;
