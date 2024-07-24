@@ -519,7 +519,7 @@
   position: absolute;
   align-items: flex-start;
   flex-direction: column;
-  background-color: #1b1b1b; 
+   background-color: #a5a3a34b;  
 }
 .home-container01 {
   top: auto;
@@ -543,11 +543,12 @@
   justify-content: center;
 }
 .home-text {
-  color: white;
+  color: black;
   text-align: center;
 }
 .home-text01 {
-  color: white;
+  font-weight: 400;
+  color: black;
   max-width: 600px;
   text-align: center;
 }
