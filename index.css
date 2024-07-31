@@ -1295,9 +1295,6 @@
   object-fit: cover;
 }
 @media(max-width: 991px) {
-  .home-text01 {
-    color: var(--dl-color-gray-900);
-  }
   .home-cards-container {
     align-items: center;
     flex-direction: column;
