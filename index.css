@@ -1295,6 +1295,9 @@
   object-fit: cover;
 }
 @media(max-width: 991px) {
+  .home-bg {
+     background-color: #757575fb;  
+  }
   .home-cards-container {
     align-items: center;
     flex-direction: column;
